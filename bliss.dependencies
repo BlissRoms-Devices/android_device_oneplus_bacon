@@ -30,6 +30,12 @@
     "revision": "cm-13.0-caf"
   },
   {
+    "repository": "sultanxda/android_hardware_ril",
+    "target_path": "hardware/ril-caf",
+    "remote": "github",
+    "revision": "cm-13.0-caf"
+  },
+  {
     "repository": "sultanxda/proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
     "remote": "github",
