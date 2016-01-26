@@ -30,6 +30,12 @@
     "revision": "cm-13.0-caf"
   },
   {
+    "repository": "sultanxda/android_hardware_qcom_audio",
+    "target_path": "hardware/qcom/audio-caf/msm8974",
+    "remote": "github",
+    "revision": "cm-13.0-caf"
+  },
+  {
     "repository": "sultanxda/android_hardware_ril",
     "target_path": "hardware/ril-caf",
     "remote": "github",
