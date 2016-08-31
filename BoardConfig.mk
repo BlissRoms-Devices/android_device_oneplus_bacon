@@ -198,3 +198,24 @@ TARGET_LDPRELOAD := libNimsWrap.so
 endif
 
 -include vendor/oneplus/bacon/BoardConfigVendor.mk
+
+#Blissful building options
+BLISSIFY := true
+BLISS_O3 := false
+BLISS_GRAPHITE := false
+BLISS_STRICT := false
+BLISS_KRAIT := true
+BLISS_PIPE := true
+#FLOOP_NEST_OPTIMIZE := true
+#ENABLE_GCCONLY := true
+#TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
+#FAST_MATH := true
+#ENABLE_MODULAR_O3 := true
+#ENABLE_LTO := true
+#LINK_TIME_OPTIMIZATIONS := true
+#TARGET_USE_ION_COMPAT := true
+#TARGET_USE_KRAIT_PLD_SET := true
+TARGET_TC_ROM := 6.1-sm
+TARGET_TC_KERNEL := 6.1-sm
+TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
